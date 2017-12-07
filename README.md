@@ -15,4 +15,5 @@
 
 3）http://m.blog.csdn.net/baimafujinji/article/details/51281816
   
+
 二. 最大熵maxent实现文本分类，基于opennlp
