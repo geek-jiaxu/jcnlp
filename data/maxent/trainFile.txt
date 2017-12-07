@@ -1,0 +1,15 @@
+district : 上海
+hotellist : 上海
+district : 北京
+district : 中国
+district : 中国 上海
+sight : 东方明珠
+sight : 故宫
+sight : 上海 东方明珠
+hotel : 上海 如家 酒店
+hotel : 上海 和平 饭店
+hotel : 东方明珠 大酒店
+hotellist : 东方明珠 附近 酒店
+hotellist : 上海 全部 酒店
+hotellist : 上海 酒店
+hotellist : 北京 大饭店
