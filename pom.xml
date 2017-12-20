@@ -12,6 +12,8 @@
 
   <properties>
     <lucene.version>6.6.1</lucene.version> 
+    <dl4j.version>0.7.1</dl4j.version>
+    <dl4j.version>0.7.1</dl4j.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -60,11 +62,11 @@
     <!-- 基于lucene-ngram拼写纠错 -->
     
     <!-- 最大熵文本分类 -->
-		<dependency>
-		    <groupId>org.apache.opennlp</groupId>
-		    <artifactId>opennlp-tools</artifactId>
-		    <version>1.8.3</version>
-		</dependency>
+	<dependency>
+	    <groupId>org.apache.opennlp</groupId>
+	    <artifactId>opennlp-tools</artifactId>
+	    <version>1.8.3</version>
+	</dependency>
     <dependency>
       <groupId>org.apache.opennlp</groupId>
       <artifactId>opennlp-maxent</artifactId>
@@ -78,5 +80,21 @@
     </dependency>
     <!-- 最大熵文本分类 -->
     
+    <dependency>
+      <groupId>org.deeplearning4j</groupId>
+      <artifactId>deeplearning4j-ui-model</artifactId>
+      <version>${dl4j.version}</version>
+   	</dependency>
+   	<dependency>
+      <groupId>org.deeplearning4j</groupId>
+      <artifactId>deeplearning4j-nlp</artifactId>
+      <version>${dl4j.version}</version>
+   	</dependency>
+   	<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native -->
+	<dependency>
+	    <groupId>org.nd4j</groupId>
+	    <artifactId>nd4j-native</artifactId>
+	    <version>0.7.2</version>
+	</dependency>
   </dependencies>
 </project>
