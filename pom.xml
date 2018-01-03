@@ -12,8 +12,8 @@
 
   <properties>
     <lucene.version>6.6.1</lucene.version> 
-    <dl4j.version>0.7.1</dl4j.version>
-    <dl4j.version>0.7.1</dl4j.version>
+    <dl4j.version>0.7.2</dl4j.version>
+    <dl4j.version>0.7.2</dl4j.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
