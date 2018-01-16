@@ -17,7 +17,7 @@ public class ViterbiDemo {
   public enum Feel { normal, cold, dizzy }
   
   static int[] states = new int[] { Status.healthy.ordinal(), Status.fever.ordinal() };
-  static int[] observations = new int[] { Feel.normal.ordinal(), Feel.normal.ordinal(), Feel.dizzy.ordinal() };
+  static int[] observations = new int[] { Feel.normal.ordinal(), Feel.cold.ordinal(), Feel.dizzy.ordinal() };
   
   /**
    * 起始概率start_probability 表示病人第一次到访时医生认为其所处的HMM状态，他唯一知道的是病人倾向于是健康的。
