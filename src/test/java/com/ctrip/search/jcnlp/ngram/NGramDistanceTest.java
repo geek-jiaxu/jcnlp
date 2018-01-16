@@ -1,5 +1,7 @@
 package com.ctrip.search.jcnlp.ngram;
 
+import com.jcnlp.ngram.NGramDistance;
+
 public class NGramDistanceTest {
 
   public void testNGramDistance() {
