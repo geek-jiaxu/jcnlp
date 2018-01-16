@@ -1,4 +1,4 @@
-package com.ctrip.search.jcnlp.ngram;
+package com.jcnlp.ngram;
 
 import com.jcnlp.ngram.NGramDistance;
 

@@ -1,4 +1,4 @@
-package com.ctrip.search.jcnlp;
+package com.jcnlp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
